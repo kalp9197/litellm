@@ -3431,7 +3431,7 @@ requires-dist = [
     { name = "pypdf", marker = "python_full_version < '3.14' and extra == 'proxy-runtime'", specifier = "==6.10.2" },
     { name = "pyroscope-io", marker = "sys_platform != 'win32' and extra == 'proxy'", specifier = "==0.8.16" },
     { name = "python-dotenv", specifier = ">=1.0.0,<2.0" },
-    { name = "python-multipart", marker = "extra == 'proxy'", specifier = "==0.0.27" },
+    { name = "python-multipart", marker = "extra == 'proxy'", specifier = ">=0.0.27" },
     { name = "pyyaml", marker = "extra == 'proxy'", specifier = "==6.0.3" },
     { name = "redisvl", marker = "python_full_version < '3.14' and extra == 'extra-proxy'", specifier = "==0.4.1" },
     { name = "resend", marker = "extra == 'extra-proxy'", specifier = "==2.23.0" },
